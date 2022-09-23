@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    min-height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+    width: 933px;
+    min-height: 39px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+}
+
+.header .logo {
+    font-family: 'Bilbo Swash Caps';
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FED136;
+    font-style: normal;
+    line-height: 41px;
+}
+
+.menu .menu-list .menu-list-item .menu-link {
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FED136;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    list-style-type: none;   
+}
+
+.menu .menu-list {
+  display: flex;
+  justify-content: space-between;
+  width: 480px;
+  list-style-type: none;                 
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #222222;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 75px;
+    margin-top: 104px;
+}
+
+.service-content {
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+   margin-top: 88px;
+   list-style-type: none;
+   text-align: center;
+}
+
+.content-title {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 75px;
+}
+
+.content-text {
+   font-family: 'RobotoSlab';
+   color: #777;
+   font-size: 14px;
+   line-height: 16px;
+}
+
+.service-content-item {
+    width: 274px;
+    height: 185px;
+}
+
+.services {
+    width: 934px;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-title {
+    text-align: center;
+    padding-top: 92px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color:#FFFFFF;
+}
+
+.contact-us-box {
+    margin-top: 119px;
+    background-color: #222222;
+}
+
+.contact-us {
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.button1 {
+    width: 242px;
+    height: 68px;
+    margin-top: 170px;
+    background: #FED136;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.button-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.name-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #BBBBBB;
+}
+
+.form-floating {
+  height: 50px;
+  max-width: 457px;
+  margin-bottom: 28px;
+}
+
+.email-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #BBBBBB;
+}
+
+.subject-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #BBBBBB;
+}
+
+.message-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #BBBBBB;
+}
+
+.button-box {
+  position: relative;
+  margin-left: 810px;
+  bottom: 230px;
+}
+
+.contact-us-labels {
+  margin-top: 114px;
+  margin-left: 455px;
+}
+
+.final-form-floating {
+  position: relative;
+  bottom: 233px;
+  margin-left: 500px;
+}
